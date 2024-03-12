@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* .container {
+  margin: 50px auto;
+  padding: 30px;
+  width: 500px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.conatct_group {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact_btn {
+  background-color: white;
+} */
+
+.tab_form {
+  margin: 20px auto;
+  padding: 30px;
+  width: 500px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 16px;
+}
+.tab_header {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px;
+  background-color: rgba(211, 211, 211, 0.658);
+  border-radius: 14px;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+.tab_form .tab_header > div {
+  flex: 1;
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.tab_form .tab_header > div.active {
+  background-color: white;
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+  font-size: 25px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn2 {
+  font-size: 25px;
+}
+
+.flexlayout {
+  display: flex;
+  width: 410px;
+  /* border: 1px solid red; */
+  padding: 10px;
+  align-items: start;
+  justify-content: space-between;
+}
+.flexlayout:hover {
+  background-color: rgba(211, 211, 211, 0.466);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.first_image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.details_main h5 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.sendbtn button {
+  margin-left: 50px;
+  border-color: lightgray;
+  border: 2px solid rgb(211, 211, 211, 0.617);
+  padding: 10px 17px 10px 17px;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+  border: 2px solid rgba(73, 69, 69, 0.617);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 1px 1px 0px;
+  cursor: pointer;
+}
+
+.initaillayout {
+  margin-bottom: 10px;
+}
+
+.addbtn_div button {
+  width: 100%;
+  padding: 18px;
+  border-radius: 10px;
+  color: white;
+  background-color: #35374b;
+  font-size: 20px;
+  border-color: #35374b;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.tab_form .tab_body {
+  position: relative;
+  min-height: 460px;
+  overflow: hidden;
+}
+.details_main p {
+  color: rgba(174, 164, 164, 0.966);
+}
+
+.tab_form .tab_body > div {
+  position: absolute;
+  top: -150vh;
+  opacity: 0;
+  width: 100%;
+  /* padding: 5px 25px; */
+  transition: opacity 300ms ease-in-out 0ms;
+}
+
+.tab_form .tab_body > div.active {
+  top: 0px;
+  opacity: 1;
+  transition: opacity 300ms ease-in-out 0ms;
+}
